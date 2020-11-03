@@ -1,5 +1,6 @@
 {% extends 'base.html' %}
 
 {% block content %}
-    <a href="{% url 'movies:index' %}">Movies<a/>
+<p>Only admin users can add and delete movies</p>
+    <a href="{% url 'movies:index' %}">Movies</a>
 {% endblock %}
