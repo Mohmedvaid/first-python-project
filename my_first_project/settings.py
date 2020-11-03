@@ -26,7 +26,9 @@ SECRET_KEY = '2_gsoj3-_cl9-#jcz-6#*g_675g2_1wp%*fhv18$#8wz8!onbc'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'murmuring-scrubland-01739.herokuapp.com'
+]
 
 
 # Application definition
